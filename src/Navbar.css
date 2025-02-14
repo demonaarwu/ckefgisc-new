@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+:root {
+    --background-color: #2e3440;
+    --text-color: #eceff4;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--background-color);
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 67px;
+    width: 60vw;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 30px;
+}
+
+.navlink a {
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Noto Sans TC";
+}
+
+nav .club-name {
+    font-family: "JetBrains Mono";
+    color: var(--text-color);
+}
+
+.hamburger-toggle span {
+    height: 3px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.hamburger-toggle {
+    width: 29px;
+    height: 21px;
+    top: 23px;
+    right: 3rem;
+    display: none;
+    position: absolute;
+    /*預設不顯示*/
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    /*因為bar有長有短，所以靠左*/
+}
+
+.hamburger-toggle .bar-3 {
+    width: 80%;
+    /*裝逼造型*/
+}
+
+@media (max-width: 767px) {
+    .hamburger-toggle {
+        display: flex;
+    }
+
+    .hamburger-toggle :hover {
+        cursor: pointer;
+    }
+
+    nav {
+        width: 95vw;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .navlinks {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navlinks ul {
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .navlinks ul li {
+        width: 100%;
+    }
+
+    .navlinks li {
+        text-align: center;
+        background-color: #2e3440;
+    }
+
+    .navlinks.active {
+        display: flex;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    nav {
+        width: 80vw;
+    }
+}
