@@ -48,10 +48,10 @@ function Questions() {
 				<div className="question">
 					<h2>我想加入建電/北資，可是我正社沒上…</h2>
 					<p>
-						沒關係，你還可以<strong>地社</strong>。地社成員除了無法參與大社課之外，<strong>和正社成員沒有任何區別</strong>，一樣能<strong>來小社課跟參加活動</strong>。
+						沒關係，你還可以<strong>地社</strong>喔！地社成員除了無法參與大社課之外，<strong>和正社成員沒有任何區別</strong>，一樣能<strong>來小社課跟參加活動</strong>。
 					</p>
 					<p>
-						不少幹部最初也不是正社成員
+						不少幹部最初也不是正社成員，而是在地社後慢慢喜歡上建北電資的。所以沒上正社不必難過，來地社吧！
 					</p>
 				</div>
 				<div className="question">
@@ -78,7 +78,7 @@ function Intro() {
 					建北電資是一個由程式愛好者所組成的社團，由建中電研和北一資研兩社合併而來。
 				</p>
 				<p>
-					兩社會在平日放學開設聯課，課程內容包含 C++、Python、網頁設計和遊戲設計等。
+					我們會在平日放學開設聯課，由兩社學術教授各種課程。課程內容包含 C++、Python、網頁設計和遊戲設計等。
 				</p>
 				<Questions />
 			</div>

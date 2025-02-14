@@ -6,23 +6,17 @@
     --text-color: #eceff4;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background-color: var(--background-color);
-    position: sticky;
-    top: 0;
-}
-
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    background-color: var(--background-color);
+    padding-left: 21vw;
+    padding-right: 21vw;
     height: 67px;
-    width: 60vw;
+    width: 100%;
+    position: sticky;
+    top: 0;
 }
 
 nav ul {
@@ -81,30 +75,22 @@ nav .club-name {
     }
 
     nav {
-        width: 95vw;
-        flex-direction: column;
-        justify-content: space-between;
+        padding-left: 5vw;
+        padding-right: 5vw;
         align-items: flex-start;
     }
 
     .navlinks {
         display: none;
-        width: 100%;
         flex-direction: column;
-    }
-
-    .navlinks ul {
-        flex-direction: column;
-        width: 100vw;
-    }
-
-    .navlinks ul li {
+        position: absolute;
+        top: 60px;
+        left: 0;
         width: 100%;
-    }
-
-    .navlinks li {
+        background-color: var(--background-color);
         text-align: center;
-        background-color: #2e3440;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .navlinks.active {
@@ -115,6 +101,6 @@ nav .club-name {
 
 @media (min-width: 768px) and (max-width: 991px) {
     nav {
-        width: 80vw;
+        padding: 0 5vw;
     }
 }
