@@ -1,0 +1,15 @@
+.slides {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.course-image {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.course-image img {
+    width: 100%;
+    border-radius: 30px;
+}

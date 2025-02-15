@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+:root {
+    --link-color: #5e81ac;
+}
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans TC";
+}
+
+h1, h2, h3, h4 {
+    font-weight: 500;
+}
+
+
+a, a:checked {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
