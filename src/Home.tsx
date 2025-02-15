@@ -4,6 +4,7 @@ import ckefgisc from "./img/ckefgisc.png"
 import Navbar from "./Navbar.tsx"
 import Footer from "./Footer.tsx"
 import Container from "./Container.tsx"
+import CKEFGISC from "./ckeisc_fgisc_ckefgisc.png"
 
 function Home() {
 	document.title = "首頁 | 建北電資 29th";
@@ -80,6 +81,7 @@ function Intro() {
 					<img className="logo" src={ckefgisc} alt="" />
 				</div>
 				<h1>關於建北電資</h1>
+				<img src={CKEFGISC} alt="" className="equation" />
 				<p>
 					想<strong>提高程式能力</strong>、APCS 滿分嗎？想做出屬於自己的<strong>網站、遊戲</strong>嗎？
 				</p>
@@ -117,7 +119,5 @@ function CKEISCIntro() {
 		</div>
 	)
 }
-
-function 
 
 export default Home

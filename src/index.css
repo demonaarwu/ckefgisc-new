@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
 
 :root {
-    --link-color: #5e81ac;
+    --link-color: #355691;
+}
+
+body {
+    background-color: white;
 }
 
 * {

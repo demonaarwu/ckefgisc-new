@@ -4,9 +4,9 @@
     padding: 30px 0px;
 }
 
-.logo {
+.logo, .equation {
     width: 100%;
-    max-width: 800px;
+    border-radius: 20px;
 }
 
 body {
