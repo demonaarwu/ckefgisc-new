@@ -151,7 +151,7 @@ function Courses() {
 function Course({ name, image, teachers, children, slides }: { name: string, image: string, teachers: string, children: any, slides: Array<CourseSlide> }) {
     return (
         <div className="course">
-            <h3>{name}</h3>
+            <h3 className="name">{name}</h3>
             <div className="course-image">
                 <img src={image} alt="" />
             </div>

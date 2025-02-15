@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "./Home";
 import Courses from "./courses/Courses";
-import Activities from "./activities/activities";
+import Events from "./events/Events";
 import Team from "./team/team";
 import Museum from "./museum/Museum";
 
@@ -11,7 +11,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="courses" element={<Courses />} />
-                <Route path="activities" element={<Activities />} />
+                <Route path="events" element={<Events />} />
                 <Route path="team" element={<Team />} />
                 <Route path="museum" element={<Museum />} />
             </Routes>

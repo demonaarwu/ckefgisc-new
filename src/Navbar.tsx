@@ -16,7 +16,7 @@ function Navbar() {
                 </div>
                 <ul className="navlinks">
                     <li className="navlink"><Link to={'/courses'}>課程</Link></li>
-                    <li className="navlink"><Link to={'/activities'}>活動</Link></li>
+                    <li className="navlink"><Link to={'/events'}>活動</Link></li>
                     <li className="navlink"><Link to={'/museum'}>歷屆</Link></li>
                     <li className="navlink"><a href="https://iscoj.fg.tp.edu.tw/" target="_blank">ISCOJ</a></li>
                 </ul>
